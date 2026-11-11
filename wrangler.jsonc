@@ -1,0 +1,21 @@
+{
+    "name":  "ssct-api",
+    "main":  "app/entry.py",
+    "compatibility_date":  "2026-11-01",
+    "compatibility_flags":  [
+                                "python_workers"
+                            ],
+    "d1_databases":  [
+                         {
+                             "binding":  "DB",
+                             "database_name":  "ssct-db",
+                             "database_id":  "REPLACE_WITH_D1_DATABASE_ID"
+                         }
+                     ],
+    "vars":  {
+                 "FRONTEND_ORIGIN":  "https://REPLACE_WITH_PAGES_DOMAIN.pages.dev",
+                 "ADMIN_IDLE_MINUTES":  "15",
+                 "COOKIE_SECURE":  "true",
+                 "TRUST_CLOUDFLARE_IP":  "true"
+             }
+}

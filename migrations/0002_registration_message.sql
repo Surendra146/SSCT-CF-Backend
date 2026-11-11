@@ -1,0 +1,1 @@
+ALTER TABLE registrations ADD COLUMN message TEXT NOT NULL DEFAULT '';

@@ -1,0 +1,23 @@
+{
+    "name":  "ssct-backend",
+    "main":  "app/entry.py",
+    "compatibility_date":  "2026-11-01",
+    "compatibility_flags":  [
+                                "python_workers"
+                            ],
+    "d1_databases":  [
+                         {
+                             "binding":  "DB",
+                             "database_name":  "ssct-production-db",
+                             "database_id":  "77fbc3ec-7af3-40be-b549-6a31b9d65e16",
+                             "migrations_dir":  "migrations"
+                         }
+                     ],
+    "vars":  {
+                 "FRONTEND_ORIGIN":  "https://ssct-cf-frontend.pages.dev",
+                 "ADMIN_IDLE_MINUTES":  "15",
+                 "COOKIE_SECURE":  "true",
+                 "TRUST_CLOUDFLARE_IP":  "true"
+             },
+    "workers_dev":  true
+}

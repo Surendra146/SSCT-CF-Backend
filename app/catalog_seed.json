@@ -1,0 +1,1141 @@
+[
+  {
+    "id": "python-full-stack",
+    "name": "Python Full Stack Development",
+    "categories": [
+      "it"
+    ],
+    "description": "From your first line of Python to complete web applications. Learn by building.",
+    "tags": [
+      "Python",
+      "Django",
+      "SQL"
+    ],
+    "modules": [
+      "HTML, CSS, JavaScript",
+      "Python Fundamentals",
+      "Advanced Python",
+      "Django",
+      "SQL and Databases",
+      "API Development",
+      "Real-Time Project"
+    ],
+    "featured": true,
+    "level": null
+  },
+  {
+    "id": "java-full-stack",
+    "name": "Java Full Stack Development",
+    "categories": [
+      "it"
+    ],
+    "description": "Build a strong foundation in Java and bring complete web applications to life.",
+    "tags": [
+      "Java",
+      "SQL",
+      "Web"
+    ],
+    "modules": [
+      "HTML, CSS, JavaScript",
+      "Basic and Core Java",
+      "Advanced Java",
+      "SQL and Databases",
+      "Project"
+    ],
+    "featured": true,
+    "level": null
+  },
+  {
+    "id": "dotnet-full-stack",
+    "name": ".NET Full Stack Development",
+    "categories": [
+      "it"
+    ],
+    "description": "Explore .net full stack development with practical, guided learning at SSCT.",
+    "tags": [
+      ".NET Full Stack Development"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "mern-stack",
+    "name": "MERN Stack Development",
+    "categories": [
+      "it"
+    ],
+    "description": "Bring ideas to the browser with a modern, JavaScript-powered development stack.",
+    "tags": [
+      "MongoDB",
+      "Express",
+      "React",
+      "Node.js"
+    ],
+    "modules": [
+      "JavaScript",
+      "MongoDB",
+      "Express.js",
+      "React.js",
+      "Node.js"
+    ],
+    "featured": true,
+    "level": null
+  },
+  {
+    "id": "data-science-ai",
+    "name": "Data Science and AI",
+    "categories": [
+      "it"
+    ],
+    "description": "Turn curiosity into insights. Explore data, Python, and the possibilities of AI.",
+    "tags": [
+      "Data",
+      "Python",
+      "AI"
+    ],
+    "modules": [
+      "Python",
+      "Data Analysis",
+      "Machine Learning",
+      "AI and ML Projects"
+    ],
+    "featured": true,
+    "level": null
+  },
+  {
+    "id": "machine-learning",
+    "name": "Machine Learning",
+    "categories": [
+      "it"
+    ],
+    "description": "Explore machine learning with practical, guided learning at SSCT.",
+    "tags": [
+      "Machine Learning"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "data-analytics",
+    "name": "Data Analytics",
+    "categories": [
+      "it"
+    ],
+    "description": "Explore data analytics with practical, guided learning at SSCT.",
+    "tags": [
+      "Data Analytics"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "cyber-security",
+    "name": "Cyber Security",
+    "categories": [
+      "it"
+    ],
+    "description": "Explore cyber security with practical, guided learning at SSCT.",
+    "tags": [
+      "Cyber Security"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "cloud-computing",
+    "name": "Cloud Computing",
+    "categories": [
+      "it",
+      "additional"
+    ],
+    "description": "Explore cloud computing with practical, guided learning at SSCT.",
+    "tags": [
+      "Cloud Computing"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "devops",
+    "name": "DevOps",
+    "categories": [
+      "it"
+    ],
+    "description": "Explore devops with practical, guided learning at SSCT.",
+    "tags": [
+      "DevOps"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "software-testing",
+    "name": "Software Testing",
+    "categories": [
+      "it",
+      "additional"
+    ],
+    "description": "Explore software testing with practical, guided learning at SSCT.",
+    "tags": [
+      "Software Testing"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "computer-basics",
+    "name": "Computer Basics",
+    "categories": [
+      "office",
+      "short",
+      "students"
+    ],
+    "description": "Explore computer basics with practical, guided learning at SSCT.",
+    "tags": [
+      "Computer Basics"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "typing",
+    "name": "Typing",
+    "categories": [
+      "office",
+      "short",
+      "students"
+    ],
+    "description": "Explore typing with practical, guided learning at SSCT.",
+    "tags": [
+      "Typing"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "ms-office",
+    "name": "MS Office",
+    "categories": [
+      "office",
+      "students"
+    ],
+    "description": "Explore ms office with practical, guided learning at SSCT.",
+    "tags": [
+      "MS Office"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "advanced-excel-and-mis",
+    "name": "Advanced Excel and MIS",
+    "categories": [
+      "office",
+      "short"
+    ],
+    "description": "Explore advanced excel and mis with practical, guided learning at SSCT.",
+    "tags": [
+      "Advanced Excel and MIS"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "tally-prime-with-gst",
+    "name": "Tally Prime with GST",
+    "categories": [
+      "office",
+      "short"
+    ],
+    "description": "Explore tally prime with gst with practical, guided learning at SSCT.",
+    "tags": [
+      "Tally Prime with GST"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "accounting-packages",
+    "name": "Accounting Packages",
+    "categories": [
+      "office"
+    ],
+    "description": "Explore accounting packages with practical, guided learning at SSCT.",
+    "tags": [
+      "Accounting Packages"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "dca",
+    "name": "DCA",
+    "categories": [
+      "office"
+    ],
+    "description": "Explore dca with practical, guided learning at SSCT.",
+    "tags": [
+      "DCA"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "pgdca",
+    "name": "PGDCA",
+    "categories": [
+      "office"
+    ],
+    "description": "Explore pgdca with practical, guided learning at SSCT.",
+    "tags": [
+      "PGDCA"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "business-accounting",
+    "name": "Business Accounting",
+    "categories": [
+      "office"
+    ],
+    "description": "Explore business accounting with practical, guided learning at SSCT.",
+    "tags": [
+      "Business Accounting"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "spoken-english",
+    "name": "Spoken English",
+    "categories": [
+      "office"
+    ],
+    "description": "Explore spoken english with practical, guided learning at SSCT.",
+    "tags": [
+      "Spoken English"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "communication-skills",
+    "name": "Communication Skills",
+    "categories": [
+      "office"
+    ],
+    "description": "Explore communication skills with practical, guided learning at SSCT.",
+    "tags": [
+      "Communication Skills"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "chatgpt-and-ai-tools",
+    "name": "ChatGPT and AI Tools",
+    "categories": [
+      "office",
+      "short"
+    ],
+    "description": "Explore chatgpt and ai tools with practical, guided learning at SSCT.",
+    "tags": [
+      "ChatGPT and AI Tools"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "python-programming",
+    "name": "Python Programming",
+    "categories": [
+      "engineering"
+    ],
+    "description": "Explore python programming with practical, guided learning at SSCT.",
+    "tags": [
+      "Python Programming"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "java-programming",
+    "name": "Java Programming",
+    "categories": [
+      "engineering"
+    ],
+    "description": "Explore java programming with practical, guided learning at SSCT.",
+    "tags": [
+      "Java Programming"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "c-and-c-programming",
+    "name": "C and C++ Programming",
+    "categories": [
+      "engineering"
+    ],
+    "description": "Explore c and c++ programming with practical, guided learning at SSCT.",
+    "tags": [
+      "C and C++ Programming"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "data-structures-and-algorithms",
+    "name": "Data Structures and Algorithms",
+    "categories": [
+      "engineering"
+    ],
+    "description": "Explore data structures and algorithms with practical, guided learning at SSCT.",
+    "tags": [
+      "Data Structures and Algorithms"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "sql-and-databases",
+    "name": "SQL and Databases",
+    "categories": [
+      "engineering"
+    ],
+    "description": "Explore sql and databases with practical, guided learning at SSCT.",
+    "tags": [
+      "SQL and Databases"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "web-development",
+    "name": "Web Development",
+    "categories": [
+      "engineering"
+    ],
+    "description": "Explore web development with practical, guided learning at SSCT.",
+    "tags": [
+      "Web Development"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "ai-and-ml-projects",
+    "name": "AI and ML Projects",
+    "categories": [
+      "engineering"
+    ],
+    "description": "Explore ai and ml projects with practical, guided learning at SSCT.",
+    "tags": [
+      "AI and ML Projects"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "mini-and-major-projects",
+    "name": "Mini and Major Projects",
+    "categories": [
+      "engineering"
+    ],
+    "description": "Explore mini and major projects with practical, guided learning at SSCT.",
+    "tags": [
+      "Mini and Major Projects"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "internship-programs",
+    "name": "Internship Programs",
+    "categories": [
+      "engineering"
+    ],
+    "description": "Explore internship programs with practical, guided learning at SSCT.",
+    "tags": [
+      "Internship Programs"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "power-bi",
+    "name": "Power BI",
+    "categories": [
+      "short"
+    ],
+    "description": "Explore power bi with practical, guided learning at SSCT.",
+    "tags": [
+      "Power BI"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "digital-marketing",
+    "name": "Digital Marketing",
+    "categories": [
+      "short",
+      "professional"
+    ],
+    "description": "Explore digital marketing with practical, guided learning at SSCT.",
+    "tags": [
+      "Digital Marketing"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "graphic-design",
+    "name": "Graphic Design",
+    "categories": [
+      "short",
+      "design"
+    ],
+    "description": "Explore graphic design with practical, guided learning at SSCT.",
+    "tags": [
+      "Graphic Design"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "web-designing",
+    "name": "Web Designing",
+    "categories": [
+      "short"
+    ],
+    "description": "Explore web designing with practical, guided learning at SSCT.",
+    "tags": [
+      "Web Designing"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "autocad",
+    "name": "AutoCAD",
+    "categories": [
+      "short",
+      "additional"
+    ],
+    "description": "Explore autocad with practical, guided learning at SSCT.",
+    "tags": [
+      "AutoCAD"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "multimedia",
+    "name": "Multimedia",
+    "categories": [
+      "short"
+    ],
+    "description": "Explore multimedia with practical, guided learning at SSCT.",
+    "tags": [
+      "Multimedia"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "coding-for-kids",
+    "name": "Coding for Kids",
+    "categories": [
+      "students"
+    ],
+    "description": "Explore coding for kids with practical, guided learning at SSCT.",
+    "tags": [
+      "Coding for Kids"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "python-for-beginners",
+    "name": "Python for Beginners",
+    "categories": [
+      "students"
+    ],
+    "description": "Explore python for beginners with practical, guided learning at SSCT.",
+    "tags": [
+      "Python for Beginners"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "web-design-basics",
+    "name": "Web Design Basics",
+    "categories": [
+      "students"
+    ],
+    "description": "Explore web design basics with practical, guided learning at SSCT.",
+    "tags": [
+      "Web Design Basics"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "typing-practice",
+    "name": "Typing Practice",
+    "categories": [
+      "students"
+    ],
+    "description": "Explore typing practice with practical, guided learning at SSCT.",
+    "tags": [
+      "Typing Practice"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "categories": [
+      "database"
+    ],
+    "description": "Explore sql with practical, guided learning at SSCT.",
+    "tags": [
+      "SQL"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "oracle",
+    "name": "Oracle",
+    "categories": [
+      "database"
+    ],
+    "description": "Explore oracle with practical, guided learning at SSCT.",
+    "tags": [
+      "Oracle"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "ms-access",
+    "name": "MS Access",
+    "categories": [
+      "database"
+    ],
+    "description": "Explore ms access with practical, guided learning at SSCT.",
+    "tags": [
+      "MS Access"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "categories": [
+      "database"
+    ],
+    "description": "Explore mysql with practical, guided learning at SSCT.",
+    "tags": [
+      "MySQL"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "pl-sql",
+    "name": "PL/SQL",
+    "categories": [
+      "database"
+    ],
+    "description": "Explore pl/sql with practical, guided learning at SSCT.",
+    "tags": [
+      "PL/SQL"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "database-management",
+    "name": "Database Management",
+    "categories": [
+      "database"
+    ],
+    "description": "Explore database management with practical, guided learning at SSCT.",
+    "tags": [
+      "Database Management"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "photoshop",
+    "name": "Photoshop",
+    "categories": [
+      "design"
+    ],
+    "description": "Explore photoshop with practical, guided learning at SSCT.",
+    "tags": [
+      "Photoshop"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "illustrator",
+    "name": "Illustrator",
+    "categories": [
+      "design"
+    ],
+    "description": "Explore illustrator with practical, guided learning at SSCT.",
+    "tags": [
+      "Illustrator"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "coreldraw",
+    "name": "CorelDRAW",
+    "categories": [
+      "design"
+    ],
+    "description": "Explore coreldraw with practical, guided learning at SSCT.",
+    "tags": [
+      "CorelDRAW"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "desktop-publishing",
+    "name": "Desktop Publishing",
+    "categories": [
+      "design"
+    ],
+    "description": "Explore desktop publishing with practical, guided learning at SSCT.",
+    "tags": [
+      "Desktop Publishing"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "video-editing",
+    "name": "Video Editing",
+    "categories": [
+      "design"
+    ],
+    "description": "Explore video editing with practical, guided learning at SSCT.",
+    "tags": [
+      "Video Editing"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "adobe-premiere-pro",
+    "name": "Adobe Premiere Pro",
+    "categories": [
+      "design"
+    ],
+    "description": "Explore adobe premiere pro with practical, guided learning at SSCT.",
+    "tags": [
+      "Adobe Premiere Pro"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "visual-effects",
+    "name": "Visual Effects",
+    "categories": [
+      "design"
+    ],
+    "description": "Explore visual effects with practical, guided learning at SSCT.",
+    "tags": [
+      "Visual Effects"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "2d-and-3d-animation",
+    "name": "2D and 3D Animation",
+    "categories": [
+      "design"
+    ],
+    "description": "Explore 2d and 3d animation with practical, guided learning at SSCT.",
+    "tags": [
+      "2D and 3D Animation"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "indesign",
+    "name": "InDesign",
+    "categories": [
+      "design"
+    ],
+    "description": "Explore indesign with practical, guided learning at SSCT.",
+    "tags": [
+      "InDesign"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "html5-css3-javascript",
+    "name": "HTML5, CSS3, JavaScript",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore html5, css3, javascript with practical, guided learning at SSCT.",
+    "tags": [
+      "HTML5, CSS3, JavaScript"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "bootstrap",
+    "name": "Bootstrap",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore bootstrap with practical, guided learning at SSCT.",
+    "tags": [
+      "Bootstrap"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore php with practical, guided learning at SSCT.",
+    "tags": [
+      "PHP"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "wordpress",
+    "name": "WordPress",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore wordpress with practical, guided learning at SSCT.",
+    "tags": [
+      "WordPress"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "elementor",
+    "name": "Elementor",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore elementor with practical, guided learning at SSCT.",
+    "tags": [
+      "Elementor"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "react-js",
+    "name": "React.js",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore react.js with practical, guided learning at SSCT.",
+    "tags": [
+      "React.js"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "node-js",
+    "name": "Node.js",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore node.js with practical, guided learning at SSCT.",
+    "tags": [
+      "Node.js"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "express-js",
+    "name": "Express.js",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore express.js with practical, guided learning at SSCT.",
+    "tags": [
+      "Express.js"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore mongodb with practical, guided learning at SSCT.",
+    "tags": [
+      "MongoDB"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "categories": [
+      "web"
+    ],
+    "description": "Explore angular with practical, guided learning at SSCT.",
+    "tags": [
+      "Angular"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "social-media-marketing",
+    "name": "Social Media Marketing",
+    "categories": [
+      "professional"
+    ],
+    "description": "Explore social media marketing with practical, guided learning at SSCT.",
+    "tags": [
+      "Social Media Marketing"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "seo",
+    "name": "SEO",
+    "categories": [
+      "professional"
+    ],
+    "description": "Explore seo with practical, guided learning at SSCT.",
+    "tags": [
+      "SEO"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "google-ads",
+    "name": "Google Ads",
+    "categories": [
+      "professional"
+    ],
+    "description": "Explore google ads with practical, guided learning at SSCT.",
+    "tags": [
+      "Google Ads"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "content-writing",
+    "name": "Content Writing",
+    "categories": [
+      "professional"
+    ],
+    "description": "Explore content writing with practical, guided learning at SSCT.",
+    "tags": [
+      "Content Writing"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "e-commerce",
+    "name": "E-Commerce",
+    "categories": [
+      "professional"
+    ],
+    "description": "Explore e-commerce with practical, guided learning at SSCT.",
+    "tags": [
+      "E-Commerce"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "hardware-and-networking",
+    "name": "Hardware and Networking",
+    "categories": [
+      "additional"
+    ],
+    "description": "Explore hardware and networking with practical, guided learning at SSCT.",
+    "tags": [
+      "Hardware and Networking"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "linux-and-windows-fundamentals",
+    "name": "Linux and Windows Fundamentals",
+    "categories": [
+      "additional"
+    ],
+    "description": "Explore linux and windows fundamentals with practical, guided learning at SSCT.",
+    "tags": [
+      "Linux and Windows Fundamentals"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "salesforce",
+    "name": "Salesforce",
+    "categories": [
+      "additional"
+    ],
+    "description": "Explore salesforce with practical, guided learning at SSCT.",
+    "tags": [
+      "Salesforce"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "power-bi-and-vba",
+    "name": "Power BI and VBA",
+    "categories": [
+      "additional"
+    ],
+    "description": "Explore power bi and vba with practical, guided learning at SSCT.",
+    "tags": [
+      "Power BI and VBA"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "spoken-english-and-hindi",
+    "name": "Spoken English and Hindi",
+    "categories": [
+      "additional"
+    ],
+    "description": "Explore spoken english and hindi with practical, guided learning at SSCT.",
+    "tags": [
+      "Spoken English and Hindi"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  },
+  {
+    "id": "dcap",
+    "name": "DCAP",
+    "categories": [
+      "additional"
+    ],
+    "description": "Explore dcap with practical, guided learning at SSCT.",
+    "tags": [
+      "DCAP"
+    ],
+    "modules": [],
+    "featured": false,
+    "level": null
+  }
+]
