@@ -2,34 +2,44 @@ import os
 from contextlib import closing
 from pathlib import Path
 from contextvars import ContextVar
-worker_env=ContextVar('worker_env',default=None)
-LOCAL_DB=os.environ.get('SSCT_DB_PATH','ssct_local.sqlite3')
+from typing import Any
+
+worker_env: ContextVar[Any | None] = ContextVar('worker_env', default=None)
+LOCAL_DB = os.environ.get('SSCT_DB_PATH', 'ssct_local.sqlite3')
+
 
 def local_conn():
     import sqlite3
-    conn=sqlite3.connect(LOCAL_DB)
+    conn = sqlite3.connect(LOCAL_DB)
     conn.execute('PRAGMA foreign_keys=ON')
-    conn.row_factory=sqlite3.Row
+    conn.row_factory = sqlite3.Row
     return conn
 
-async def rows(sql,params=()):
-    env=worker_env.get()
-    if env is not None:
-        stmt=env.DB.prepare(sql)
-        if params:stmt=stmt.bind(*(int(x) if isinstance(x,bool) else x for x in params))
-        result=await stmt.all()
-        return result.to_py()['results']
-    with closing(local_conn()) as c:return [dict(x) for x in c.execute(sql,params).fetchall()]
 
-async def execute(sql,params=()):
-    env=worker_env.get()
+async def rows(sql, params=()):
+    env = worker_env.get()
     if env is not None:
-        stmt=env.DB.prepare(sql)
-        if params:stmt=stmt.bind(*(int(x) if isinstance(x,bool) else x for x in params))
-        result=await stmt.run()
-        return result.to_py()['meta'].get('last_row_id')
+        db: Any = env.DB
+        stmt: Any = db.prepare(sql)
+        if params:
+            stmt = stmt.bind(*(int(x) if isinstance(x, bool) else x for x in params))
+        result = await stmt.all()
+        return result['results']
     with closing(local_conn()) as c:
-        cursor=c.execute(sql,params)
+        return [dict(x) for x in c.execute(sql, params).fetchall()]
+
+
+async def execute(sql, params=()):
+    env = worker_env.get()
+    if env is not None:
+        db: Any = env.DB
+        stmt: Any = db.prepare(sql)
+        if params:
+            stmt = stmt.bind(*(int(x) if isinstance(x, bool) else x for x in params))
+        result = await stmt.run()
+        return result['meta'].get('last_row_id')
+    with closing(local_conn()) as c:
+        cursor = c.execute(sql, params)
         c.commit()
         return cursor.lastrowid
 
