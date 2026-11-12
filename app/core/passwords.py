@@ -4,8 +4,8 @@ import hmac
 import secrets
 import sys
 
-ITERATIONS = 600000
-DUMMY_HASH = 'pbkdf2_sha256$600000$00000000000000000000000000000000$' + '0' * 64
+ITERATIONS = 100000
+DUMMY_HASH = 'pbkdf2_sha256$100000$00000000000000000000000000000000$' + '0' * 64
 
 class UnsupportedPasswordHash(RuntimeError):
     pass
@@ -37,8 +37,12 @@ async def verify_password(password, encoded):
         if parts[0] == 'pbkdf2_sha256' and len(parts) == 4:
             _, iterations, salt, expected = parts
             iterations = int(iterations)
-            if not ITERATIONS <= iterations <= 2000000 or not 1 <= len(salt) <= 128 or len(expected) != 64:
+            if not 100000 <= iterations <= 2000000 or not 1 <= len(salt) <= 128 or len(expected) != 64:
                 return False
+            if sys.platform == 'emscripten' and iterations > 100000:
+                raise UnsupportedPasswordHash(
+                    'Password hash requires migration to a Cloudflare-compatible format.'
+                )
             actual = await derive(password, salt, iterations)
         elif parts[0] == 'scrypt' and len(parts) == 3:
             _, salt, expected = parts

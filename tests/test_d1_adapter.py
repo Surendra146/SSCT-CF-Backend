@@ -9,8 +9,10 @@ class D1AdapterTests(unittest.TestCase):
             def to_py(self):return self.value
         class Statement:
             def bind(self,*values):self.values=values;return self
-            async def all(self):return Proxy({'results':[{'id':1}]})
-            async def run(self):return Proxy({'meta':{'last_row_id':7}})
+            async def all(self):
+              return {'results': [{'id': 1}]}
+            async def run(self):
+              return {'meta': {'last_row_id': 7}}
         statement=Statement()
         env=SimpleNamespace(DB=SimpleNamespace(prepare=lambda sql:statement))
         async def run():

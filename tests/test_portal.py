@@ -43,7 +43,7 @@ class PortalTests(unittest.TestCase):
         self.assertEqual(self.client.get('/api/admin/auth/me').json()['name'],'Test Admin')
         self.assertEqual(self.patch('settings',{'name':'Changed Name','current_password':'test-pass-12345','new_password':'new-password-12345'}).status_code,200)
         stored=asyncio.run(db.rows('SELECT password_hash FROM admin_users WHERE username=?',('test-admin',)))[0]['password_hash']
-        self.assertTrue(stored.startswith('pbkdf2_sha256$600000$'));self.assertNotIn('new-password',stored)
+        self.assertTrue(stored.startswith('pbkdf2_sha256$100000$'));self.assertNotIn('new-password',stored)
         self.client.post('/api/admin/auth/logout',headers=self.headers)
         self.client.cookies.set('ssct_admin_session',original,domain='testserver.local',path='/api/admin')
         self.assertEqual(self.client.get('/api/admin/auth/me').status_code,401)
